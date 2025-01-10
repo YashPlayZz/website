@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	background-image: url("https://cdn.discordapp.com/attachments/1300191145359577100/1327357760945520710/Moon.jpg?ex=6782c5bf&is=6781743f&hm=2a19ffa18428e7838235b11e41c52ff634cd7154fa0c139e3754f00499cf077b&");
+
+	background-attachment: fixed;
+
+	background-size: cover;
+    background-repeat: no-repeat;
+
+	color: white;
+	font-family: "Lato", sans-serif;
+	font-size: 18px;
+}
+
+a {
+	color: lightskyblue;
+
+	-webkit-transition: ease 0.3s;
+	transition: ease 0.3s;
+}
+
+a:hover {
+    color: rgb(155, 186, 250);
+}
+
+a:active {
+    color: lightgray;
+}
+
+div.body-wrapper {
+	display: flex;
+	flex-direction: column;
+	
+	align-items: center;
+	
+}
+
+div.container {
+	display: flex;
+	flex-direction: column;
+	
+	max-width: 80%;
+	
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+
+div.text {
+	padding: 15px;
+}
+
+div.text h1 {
+	margin-bottom: 10px;
+}
+
+div.text h2, h3 {
+	margin-bottom: 5px;
+}
+
+div.text h4, h5, h6 {
+	margin-bottom: 3px;
+}
+
+div.text p {
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+div.text ul {
+	list-style-type: none;
+	padding: 0;
+	
+	margin-bottom: 10px;
+}
+
+div.text i.fa-youtube:before {
+    color: rgb(236, 0, 0);
+    background: radial-gradient(at center, white 40%, transparent 10%);
+	background: -webkit-radial-gradient(at center, white 40%, transparent 10%);
+}
+
+div.text i.fa-twitch:before {
+	color: rgb(169, 112, 255);
+	
+	background: radial-gradient(
+                    ellipse 70% 55%,
+                    white 60%,
+                    transparent 50%
+				);
+				
+	background: -webkit-radial-gradient(
+                    ellipse 70% 55%,
+                    white 60%,
+                    transparent 50%
+				);
+}
+
+div.text i.fa-twitter:before {
+	color: rgb(73, 161, 242);
+}
+
+div.text i.fa-telegram:before {
+    color: rgb(88, 169, 243);
+	
+    background: radial-gradient(at center, white 50%, transparent 10%);
+	background: -webkit-radial-gradient(at center, white 50%, transparent 10%);
+}
+
+div.text i.fa-discord:before {
+    color: rgb(86, 98, 246);
+	
+    background: radial-gradient(at center, white 50%, transparent 10%);
+	background: -webkit-radial-gradient(at center, white 50%, transparent 10%);
+}
+
+div.text i.fa-github:before {
+    color: white;
+	
+	background: radial-gradient(
+                    ellipse 50% 65%,
+                    rgb(1, 4, 9) 70%,
+                    transparent 50%
+				);
+	background: -webkit-radial-gradient(at center, rgb(1, 4, 9) 50%, transparent 10%);
+}
+
+div.text i.fa-steam:before {
+	color: rgb(18, 27, 46);
+	background: radial-gradient(
+                    ellipse 67% 60%,
+                    white 67%,
+                    transparent 60%
+				);
+	
+	background: -webkit-radial-gradient(
+                    ellipse 70% 60%,
+                    white 70%,
+                    transparent 60%
+				);
+}
+
+div.link-button {
+	display: flex;
+	flex-direction: row;
+	
+	align-items: center;
+	gap: 10px;
+}
+
+div.link-icon > * {
+	width: 16px;
+}
+
+div.footer {
+	display: flex;
+	flex-direction: row;
+	
+	justify-content: center;
+	
+	padding: 10px;
+}
+
+div.bottom-right {
+	position: fixed;
+	
+	right: 5%;
+	bottom: 0;
+}
+
+div.bottom-right img {
+	height: 30vmin;
+}
